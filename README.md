@@ -1,16 +1,27 @@
-# exp
+# Expense Tracker
 
-A new Flutter project.
+A Flutter-based personal finance app with AI-powered insights, built by Group 21 as a Sheridan College capstone project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Track income and expenses by category
+- Monthly financial overview with charts
+- Budget setting and monitoring
+- AI assistant (Fin) powered by Groq's Llama 3.3 70B
+- Secure authentication via Supabase
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend:** Flutter (Dart)
+- **Backend:** Supabase (PostgreSQL + Auth)
+- **AI:** Groq API (Llama 3.3 70B)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Team
+
+- Alvy Toms
+- Vedant (vedant9123)
+- Karthik Sreeni Nair
+
+## Setup
+
+See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for full setup instructions.
