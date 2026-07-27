@@ -62,7 +62,7 @@ drop policy if exists "transactions_delete_own" on public.transactions;
 create policy "transactions_delete_own" on public.transactions
   for delete using (auth.uid() = user_id);
 
--- budgets policies
+-- budgets policies of supabase
 drop policy if exists "budgets_select_own" on public.budgets;
 create policy "budgets_select_own" on public.budgets
   for select using (auth.uid() = user_id);
